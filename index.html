@@ -5,10 +5,12 @@
     <link rel="stylesheet" href="./assets/style.css" />
 
 </head>
-<body>
+<body class = "plain-body" id="bod">
     <header>
         <div class="question">
-            <h1>Code Quiz</h1>
+            <h1>🤖Code Quiz🤖</h1>
+            <h2>Presented by Quiznos®</h2>
+            <h3 id="prompt"></h3>
         </div>
     </header>
     <main>
@@ -25,6 +27,22 @@
         <div class="score">
             <p>SCORE: </p>
         </div>
+
+        <div class="high-score-display">
+            <p id="high-score">High Score:  </p>
+            <p id="by">By:  </p>
+        </div>
+
+        <section class="name-entry">
+            <div class="input-group">
+                <label for="high-score-input">Your name: </label>
+                <input type="text" name="high-score-input" id="high-score-input" placeholder="what's your name?" />
+            </div>
+            <button class ="submit">Submit</button>
+        </section>
+        
+        <button class="clear-high-scores">Clear high scores</button>
+        <button class="toasty">Toasty Theme</button>
 
     </main>
     <script src="./assets/script.js"></script>

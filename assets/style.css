@@ -1,3 +1,28 @@
+.plain-body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#cfcccd, #c0bfbf, #cfcccd);
+    margin: 20px;
+}
+
+.plain-body h2 {
+    display: none;
+}
+
+.toasty-body {
+    background-image: url(./sandwich.jpg);
+}
+
+.toasty-body h2 {
+    display: contents;
+}
+
+button {
+    font-size: 30px;
+    background-color: #d7acf7;
+    box-shadow: 10px 5px 5px #000000;
+}
+
 .question {
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,4 +37,14 @@
 
 .answers li {
     margin-bottom: 10px;
+}
+
+.name-entry {
+    display:none;
+}
+
+.time-remaining {
+    margin-top: 30px;
+    font-weight: bold;
+    color:#ee0e46;
 }
